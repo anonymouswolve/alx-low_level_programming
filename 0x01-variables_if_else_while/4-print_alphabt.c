@@ -8,13 +8,13 @@
 int main(void)
 {
 char lup, e, q;
-e = 'e'
-q = 'q'
+e = 'e';
+q = 'q';
 for (lup = 'a'; lup <= 'z'; lup++)
 {
 if (lup != e && lup != q)
 putchar(lup);
 }
-puchar('\n');
+putchar('\n');
 return (0);
 }
