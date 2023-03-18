@@ -1,0 +1,4 @@
+#!/bin/bash
+git add .
+git commit -m "New files added for whilke loops and variables"
+git push
