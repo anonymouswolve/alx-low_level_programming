@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _isalpha - checks for alphabetic order
+ * _isalpha - Checks for alphabetic character
  * @c: The character to be checked
- * Return: 1 for alphabetic order or 0 for anything else
+ * Return: 1 for alphabeti character or 0 for anything else
  */
 int _isalpha(int c)
 {
@@ -11,6 +11,4 @@ int _isalpha(int c)
 	return (1);
 	}
 	return (0);
-
 }
-
