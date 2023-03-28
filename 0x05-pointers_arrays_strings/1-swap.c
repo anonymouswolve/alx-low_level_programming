@@ -2,7 +2,7 @@
 
 /**
  * swap_int - swaps ttwo integers values
- * @a: first integer 
+ * @a: first integer
  * @b: second integer
  * Retrun: Nothing
  */
