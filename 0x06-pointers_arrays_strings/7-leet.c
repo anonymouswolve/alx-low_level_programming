@@ -15,13 +15,13 @@ char *leet(char *s)
 	{
 		for (i = 0; i < 5; i++)
 		{
-			if (*(s + count) == numbers[i] || *(s + count) == up_letters[i])
+			if (*(s + count) == low_letters[i] || *(s + count) == up_letters[i])
 			{
 				*(s + count) = numbers[i];
 				break;
 			}
 		}
-		count++
+		count++;
 	}
 	return (s);
 }
